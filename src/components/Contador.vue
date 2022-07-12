@@ -9,9 +9,9 @@
 
 
     <div>
-        <button v-on:click="incrementar()">Aumentar 1</button>
+        <button v-on:click="incrementar()" class="botonesContador">Aumentar 1</button>
        
-        <button v-on:click="disminuir()">Disminuir 1</button>
+        <button v-on:click="disminuir()" class="botonesContador">Disminuir 1</button>
     </div>
 
 </template>
@@ -50,7 +50,7 @@ export default {
 
 <style>
 
-button{
+.botonesContador{
     background-color: #64BB87;
     border-radius: 5px;
     color: white;
@@ -58,7 +58,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.botonesContador:hover{
     background-color: #5aa67b;
     transition: 0.3s ease-in-out;
 }
