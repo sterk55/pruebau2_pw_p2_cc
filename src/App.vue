@@ -6,6 +6,7 @@
  
     <datos-basicos v-bind:tipo="tipo"/>
   <!--<calculadora />-->
+  <Pregunta />
   
 </template>
 
@@ -16,6 +17,8 @@ import Contador2 from './components/Contador2.vue'
 import Calculadora from './components/Calculadora.vue'
 import datosBasicos from './components/datosBasicos.vue'
 import DatosBasicos from './components/datosBasicos.vue'
+import Pregunta from './components/Pregunta.vue'
+
 
 export default {
   name: 'App',
@@ -31,7 +34,8 @@ export default {
     Calculadora,
     Contador2,
     datosBasicos,
-    DatosBasicos
+    DatosBasicos,
+    Pregunta
 }
 }
 </script>
