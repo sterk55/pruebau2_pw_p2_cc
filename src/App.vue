@@ -1,10 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <!--<img alt="Vue logo" src="./assets/logo.png">-->
   <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
   <!--<contador2 title="Titulo 1" v-bind:inicio = "valorInicio"/>-->
   <!--    <contador2 title="Titulo 2" v-bind:inicio= "-16"/>-->
  
-    <datos-basicos v-bind:tipo="tipo"/>
+    <!--<datos-basicos v-bind:tipo="tipo"/>-->
   <!--<calculadora />-->
   <Pregunta />
   
