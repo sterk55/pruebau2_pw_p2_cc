@@ -52,6 +52,7 @@
             <td><h4>Foto del Pais de la IP:</h4></td>
             <td><img :src=foto alt="no hay" v-if="foto"></td>
         </tr>
+        <h2></h2>
     </table>
 </template>
 
