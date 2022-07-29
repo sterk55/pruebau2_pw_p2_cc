@@ -1,19 +1,19 @@
 <template>
 
   <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
-  <IpPublica/>
+  
+  <CasinoPokemon/>
   
 </template>
 
 <script>
 
-import IpPublica from './components/IpPublicas.vue'
-
+import CasinoPokemon from './components/CasinoPokemon.vue'
 
 export default {
   name: 'App',
   components: {
-    IpPublica,
+    CasinoPokemon
     
   }
 }
